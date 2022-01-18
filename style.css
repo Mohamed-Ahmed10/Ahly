@@ -1,0 +1,133 @@
+body
+{
+   background-color: #9e0000
+   
+}
+.container
+{
+    width: 1000px;
+    height: 600px;
+    position: absolute;
+    top: 15px;
+    left: 150px;
+    margin: 20px;
+    overflow: hidden;
+}
+.father
+{
+    width: 450px;
+    height: 450px;
+    margin: 100px auto;
+    border-radius: 50%;
+    box-shadow: 10px 20px 5px #000, -15px 25px 5px #ffd200;
+    position: relative;
+}
+.logo
+{
+    height: 150px;
+    width: 150px;
+    position: relative;
+    top: -50px;
+    left: 150px;
+    display: none
+}
+.inputs
+{
+   position:absolute;
+    bottom: 70px;
+    left: 62px;
+}
+.input_field
+{
+    height: 75px;
+    display:inline-block;
+    box-shadow: 5px 5px 5px #c11414 , -5px -5px 5px #c11414;
+    margin-top:30px;
+    border-radius: 70px;
+}
+.input_field > img
+{
+    height: 40px;
+    width: 40px;
+    position: relative;
+    top: 13px;
+    left: 25px;
+}
+.name , .password
+{
+    height: 35px;
+    width: 250;
+    border-radius: 0 20px 20px 0;
+    text-align: left;
+    font-size: 20px;
+    font-family: initial;
+    border: none;
+    margin: 20px;
+    background-color:transparent;
+    color: #f0ff0a;
+    padding-left: 10px;
+    outline: none;
+    
+}
+::placeholder { 
+    color: #FFD200;
+    opacity: 1; 
+}
+.input_field div
+{
+    position: relative;
+    left: 60px;
+    bottom: 20px;
+}
+#check
+{
+    position:relative;
+    top:2px;
+    outline: none
+}
+button
+{
+    height: 60px;
+    width: 140px;
+    position: relative;
+    left: 90px;
+    bottom: -32px;
+    font-size: 27px;
+    font-family: Bodoni MT Poster Compressed;
+    font-weight: bold;
+    border-radius: 35px;
+    background-color: #000;
+    color: #FFF;
+    outline: none;
+    text-align:center;
+}
+button .lock
+{
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+}
+button .unlock
+{
+   width: 40px;
+   height: 40px;
+   position: absolute;
+   top: 7px;
+   left: 11px;
+   display: none;
+}
+button > p
+{
+    display: inline-block;
+    position: relative;
+    bottom: 15px;
+    right: 10px;
+}
+.outer
+{
+    font-size:68px;
+    margin: 270px;
+    color: #580000;
+    font-family: fantasy;
+    display: none;
+}

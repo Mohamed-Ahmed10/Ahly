@@ -1,0 +1,52 @@
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="Ahly.png" />
+    <title>AlAhly</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="father">
+            <img src="Ahly.png" class="logo" />
+            <div class="inputs">
+                <div class="input_field">
+                    <img src="user.png" />
+                    <input class="name" type="text" placeholder=" user name" required />
+                </div>
+                <div class="input_field">
+                    <img src="password.ico" />
+                    <input class="password" type="password" placeholder="password" id="myInput" required /><br />
+                    <div>
+                        <input type="checkbox" onclick="myFunction()" id="check" />show password
+                    </div>
+                </div>
+                <button>
+                    <img class="lock" src="lock.png" /><img
+                      class="unlock"
+                      src="unlock.png"
+                    />
+                    <p>login</p>
+              </button>
+            </div>
+        </div>
+    </div>
+    <div class="outer">Thank you for signing in ASC</div>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myInput");
+            if (x.type === "password") {
+                x.type = "text";
+            } else {
+                x.type = "password";
+            }
+        }
+    </script>
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="plugins.js"></script>
+</body>
+
+</html>
